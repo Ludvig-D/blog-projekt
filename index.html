@@ -3,21 +3,39 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Blog</title>
   </head>
   <body>
-    <header>
+    <header class="header">
       <h1>Blog</h1>
       <nav>
-        <ul>
+        <ul class="ul-header">
           <li><a href="#">Home</a></li>
-          <li><a href="#">Technolegy</a></li>
-          <li><a href="#">Productivity</a></li>
+          <li><a href="#">Articles</a></li>
+          <li><a href="#">Categories</a></li>
           <li><a href="#">About</a></li>
         </ul>
       </nav>
-      <input type="text" name="search" placeholder="Search" />
+      <button class="btn-header">
+        <img src="icons/search_icon.png" alt="Search icon" />
+      </button>
     </header>
-    <main></main>
+    <main>
+      <div class="first-section">
+        <p id="text">Academic Excellence</p>
+        <h2>Ideas That Shape Tomorrow</h2>
+        <p>
+          Discover cutting-edge research, academic insights, and educational
+          innovations from leading scholars and thought leaders in higher
+          education.
+        </p>
+        <div class="btn-section">
+          <button>Explore -></button>
+          <button>Start Writing</button>
+        </div>
+        <img src="images/book-image.jpg" alt="Image of a book" />
+      </div>
+    </main>
   </body>
 </html>
